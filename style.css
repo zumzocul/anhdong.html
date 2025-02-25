@@ -1,0 +1,54 @@
+*{
+    list-style-type:none;
+    text-decoration:none;
+    font-size:18px;
+}
+.menu{
+background-color: lime;
+    padding:0px;
+    margin:0px;
+}
+.menu>li{
+    width:200px;
+}
+.dflex{display:flex;
+}
+.menu>li>a{
+    display:block;
+    padding:10px;
+}
+.menu>li>a:hover{
+    background-color:darkgreen;
+    color:white;
+}
+.submenu{
+    display:none;
+}
+.subli:hover.submenu{
+    display:block;
+    position:absolute;
+}
+.coli5
+{
+    width:20%;
+}
+.coli65
+{width:65%;
+}
+.coli20{
+    width:20%;
+}
+.content{
+    background-color:lime;
+    margin:1px auto;
+} 
+.coli5 img{
+    width:110%;
+}
+.coli65>h1{
+    text-align:center;
+    font-size:45px;
+    text-shadow:3px 4px 3px orange ;
+}
+.dm
+ {background-color:bisque;}
